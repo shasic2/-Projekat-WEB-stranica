@@ -1,0 +1,11 @@
+VALIDACIJA HTML-A
+
+Koristila sam The W3C Markup Validation Service
+Već sam uradila validaciju za html dio i ispravila sam greške.
+
+
+
+VALIDACIJA CSS-A
+
+Koristrila sam The W3C CSS Validation Service - Jigsaw
+Imam jedan error i to u file-u detalji.css 

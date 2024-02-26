@@ -1,0 +1,255 @@
+body {
+    
+    font-size: 16px;
+    margin: 0;
+   
+}
+
+
+
+
+.red {
+  
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+
+.img{
+   
+    margin-right: 100px;
+}
+
+.detalji{
+    margin-right: 110px;
+    text-align: right;
+   
+}
+
+
+.detalji1{
+    margin-right: 125px;
+    text-align: right;
+}
+
+
+#osnovno_1{
+    margin-left: 50px;
+}
+#osnovno_2{
+    margin-left: 50px;
+}
+#osnovno_3{
+    margin-left: 50px;
+}
+#osnovno_4{
+    margin-left: 50px;
+}
+#osnovno_5{
+    margin-left: 50px;
+}
+#osnovno_6{
+    margin-left: 50px;
+}
+#osnovno_7{
+    margin-left: 50px;
+}
+#osnovno_8{
+    margin-left: 50px;
+}
+#osnovno_9{
+    margin-left: 50px;
+}
+#osnovno_10{
+    margin-left: 50px;
+}
+#osnovno_11{
+    margin-left: 50px;
+}
+#osnovno_12{
+    margin-left: 50px;
+}
+#osnovno_13{
+    margin-left: 50px;
+}
+#osnovno_14{
+    margin-left: 50px;
+}
+#osnovno_15{
+    margin-left: 50px;
+}
+
+
+
+#detalji_1{
+ 
+    margin-left: 50px;
+}
+#detalji_2{
+ 
+    margin-left: 50px;
+}
+#detalji_3{
+ 
+    margin-left: 50px;
+}
+#detalji_4{
+ 
+    margin-left: 50px;
+}
+#detalji_5{
+ 
+    margin-left: 50px;
+}
+#detalji_6{
+ 
+    margin-left: 50px;
+}
+#detalji_7{
+ 
+    margin-left: 50px;
+}
+#detalji_8{
+ 
+    margin-left: 50px;
+}
+#detalji_9{
+ 
+    margin-left: 50px;
+}
+#detalji_10{
+ 
+    margin-left: 50px;
+}
+#detalji_11{
+ 
+    margin-left: 50px;
+}
+#detalji_12{
+ 
+    margin-left: 50px;
+}
+#detalji_13{
+ 
+    margin-left: 50px;
+}
+#detalji_14{
+ 
+    margin-left: 50px;
+}
+#detalji_15{
+ 
+    margin-left: 50px;
+}
+
+
+#upiti_1{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_2{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_3{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_4{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_5{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_6{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_7{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_8{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_9{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_10{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_11{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_12{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_13{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_14{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+#upiti_15{
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+
+.opis{
+    text-align: left;
+    margin-right: 110px;
+}
+
+
+.lista-upita {
+    list-style-type: none;
+    padding: 0;
+}
+
+.upit-element {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.korisnik {
+    font-weight: bold;
+}
+
+.useri{
+    margin-top: 10px;
+}
+
+#meni{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding: 0;
+   
+}

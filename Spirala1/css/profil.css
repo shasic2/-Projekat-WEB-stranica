@@ -1,0 +1,59 @@
+
+body{
+    background-color: #fdf1d3;
+}
+
+#slika{
+   
+    margin-top: 40px;
+}
+
+#ime1{
+    margin-left: 10px;
+    margin-right:  160px;
+    font-size: 18px;
+}
+
+#prezime1{
+    margin-left: 10px;
+    margin-right:  130px;
+    font-size: 18px;
+}
+#username1{
+    margin-left: 10px;
+    margin-right:  118px;
+    font-size: 18px;
+}
+#pass1{
+    margin-left: 10px;
+    margin-right:  120px;
+    font-size: 18px;
+}
+
+.p{
+   
+    width: 100px;
+    height: 30px;
+}
+
+
+#meni{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.c {
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 500px) {
+ 
+    .c img{
+        float: left;
+    }
+}
+

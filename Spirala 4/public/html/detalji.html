@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/detalji.css'>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Uključivanje menija na vrhu stranice -->
+    <script>
+      $(function () {
+        // Učitaj meni.html unutar elementa sa ID "meni-container"
+        $("#meni-container").load("meni.html");
+      });
+    </script>
+    
+    
+    <title>Detalji</title>
+    <script  src='../scripts/PoziviAjax.js'></script>
+
+    
+   
+</head>
+<body>
+
+    
+  <div id="meni-container"></div>
+
+  <div id="nekretnina-div">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2> Osnovno </h2>
+<p id ="id"> </p>
+  <p id="naziv"></p>
+  <p id="cijena"></p>
+  <p id="kvadratura"></p>
+<br>
+
+  <h2> Detalji</h2>
+  <p id="lokacija"></p>
+  <p id="opis"></p>
+ 
+ 
+<br>
+
+</div>
+
+<div id="upiti-container">
+  <h2>Upiti</h2>
+  <ul id="upiti-lista"></ul>
+</div>
+
+
+<br>
+<br>
+
+
+
+<div id="dodaj_upit">
+  <h2>Postavi upit</h2>
+  <div id="upit-form-container">
+    <form id="upit-form">
+      <textarea id="tekst_upita" placeholder="Unesite svoj upit" rows="4" cols="50"></textarea>
+      <br>
+      <button type="button" id="postavi-upit-btn" onclick="postaviUpit()">Postavi upit</button>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script  src='../scripts/spojiDetalje.js'></script>
+<script src="../scripts/spojiUpite.js"></script>
+ 
+  
+
+
+
+</body>
+</html>

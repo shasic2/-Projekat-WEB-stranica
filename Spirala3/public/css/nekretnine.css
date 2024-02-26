@@ -1,0 +1,176 @@
+body{
+    background-color: #fdf1d3;
+}
+
+
+
+.grid {
+    text-align: center;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  
+  }
+  
+
+
+  /* Stil za stavke u grid listi */
+.grid-item {
+   
+    border: 1px solid #ccc; /* Ivica za svaku stavku */
+    padding: 0px; /* Razmak oko sadržaja stavke */ 
+    text-align: center;
+  
+}
+
+ 
+
+
+  @media (max-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+.nekretnina {
+    border: 1px solid #ccc;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.nekretnina img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nekretnina h3,
+.nekretnina p {
+    margin: 0;
+}
+
+
+
+.tip-stan {
+    background-color: white;
+    width: 100%; /* Postavljanje širine na 100% kako bi se popunila cijela površina  elementa */
+    height: 100%; /* Postavljanje visine na 100% kako bi se popunila cijela površina  elementa */
+    
+  
+}
+
+
+.tip-kuca {
+    background-color: powderblue;
+    width: 100%; /* Postavljanje širine na 100% kako bi se popunila cijela površina  elementa */
+    height: 100%; /* Postavljanje visine na 100% kako bi se popunila cijela površina  elementa */
+   
+}
+
+.tip-poslovni.prostor {
+    background-color: green;
+    width: 100%; /* Postavljanje širine na 100% kako bi se popunila cijela površina  elementa */
+    height: 100%; /* Postavljanje visine na 100% kako bi se popunila cijela površina  elementa */
+    
+}
+
+
+#Stan{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Minimum 300px, maksimum 1 fr */
+    grid-auto-rows: 300px;
+}
+
+#Kuca{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Minimum 300px, maksimum 1 fr */
+    grid-auto-rows: 300px;
+ 
+}
+
+#Pp{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Minimum 300px, maksimum 1 fr */
+  grid-auto-rows: 300px;
+}
+
+
+#Stan > .grid-item,
+#Kuca > .grid-item,
+#Pp > .grid-item {
+  margin: 20px; 
+}
+
+
+
+#naziv{
+    text-align: left;
+}
+#kvadratura{
+    text-align: left;
+}
+
+#cijena{
+    text-align: right;
+}
+
+
+
+
+#meni{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    left: 0;
+    
+
+}
+div {
+    padding: 10px; /* Razmak oko sadržaja stavke */ 
+    text-align: center;
+
+    display: inline-block; /* ili bilo koji drugi stil koji želite primijeniti na div elemente */
+}
+
+.Tip{
+    display: inline;
+    grid-gap: 20px;
+    overflow-wrap: break-word;
+}
+
+
+
+/* Stilizacija polja za pretragu */
+.search-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-container input[type="number"],
+.search-container button {
+    padding: 8px;
+    margin-right: 10px;
+}
+.search-container button {
+    background-color: blue; /* Plava pozadina */
+    color: white; /* Bijeli tekst */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container label {
+    display: block;
+    margin-bottom: 5px; /* Razmak između labela i input polja */
+}
+
+
+
+
+
+

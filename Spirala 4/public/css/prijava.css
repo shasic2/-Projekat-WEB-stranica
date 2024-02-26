@@ -1,0 +1,39 @@
+
+ /* Stiliziranje input polja */
+ .container {
+    width: 300px; /* Promijenite širinu prema potrebi */
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ovo će uzeti u obzir padding i border pri izračunavanju širine */
+  }
+
+  button {
+    background-color: blue; /* Plava pozadina */
+    color: white; /* Bijeli tekst */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: darkblue;
+  }
+
+
+

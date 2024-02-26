@@ -1,0 +1,43 @@
+body{
+    background-color: #fdf1d3;
+}
+
+#meni{
+     margin-left: -70px;
+    text-align: center;
+    color: blue;
+    font-size:  20px;
+    padding: 0;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 110%;
+    background: rgb(250, 243, 243)
+  
+   
+
+}
+
+li{
+   
+    list-style: none;
+}
+a:hover {
+    color: #f90;
+  }
+
+  a {
+ 
+    text-decoration: none;
+    color: blue; /* Dodajemo boju koja se primenjuje na sve linkove */
+   
+  }
+
+li {
+    display: inline;
+}
+
+#meni ul li {
+    margin-right: 15px; /*Prilagodite razmak između stavki prema potrebi */
+    }

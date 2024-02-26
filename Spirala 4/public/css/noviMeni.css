@@ -1,0 +1,63 @@
+body{
+    background-color: #fdf1d3;
+  }
+  
+  #meni{
+    
+    text-align: center;
+    color: blue;
+    font-size:  20px;
+    padding: 0;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 110%;
+    background: rgb(250, 243, 243)
+   
+  
+  }
+
+  
+  li{
+   
+    list-style: none;
+  }
+  a:hover {
+    color: #f90;
+  }
+  
+  a {
+    text-decoration: none;
+    color: blue; /* Dodajemo boju koja se primenjuje na sve linkove */
+   
+  }
+
+  
+  
+  #meni ul li {
+    display: inline-block;
+    margin-right: 10px; /* Ovo dodaje razmak između stavki */
+  }
+  
+  #meni ul li:last-child {
+    margin-right: 0; /* Uklanja margine s posljednjeg elementa */
+  }
+
+
+  /* Stilizacija za dugme odjave */
+#meni ul li form button {
+  background-color: blue; /* Plava pozadina */
+  color: white; /* Bijeli tekst */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+
+  
+#meni ul li form button:hover {
+  background-color: darkblue; /* Promjena boje prilikom hovera */
+}

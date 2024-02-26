@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/nekretnine.css'>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Uključivanje menija na vrhu stranice -->
+    <script>
+      $(function () {
+        // Učitaj meni.html unutar elementa sa ID "meni-container"
+        $("#meni-container").load("meni.html");
+      });
+    </script>
+
+<script src="../scripts/PoziviAjax.js"></script>
+<script src="../scripts/MarketingAjax.js"></script>
+
+
+ 
+ 
+ <title>Nekretnine</title>
+   
+</head>
+
+<body>
+  <div id="meni-container"></div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <div class="search-container">
+      <label for="minPrice">Minimalna cijena:</label>
+      <input type="number" id="minPrice" placeholder="Min. cijena">
+      <label for="maxPrice">Maksimalna cijena:</label>
+      <input type="number" id="maxPrice" placeholder="Max. cijena" > <br>
+      
+      
+      <label for="minArea">Minimalna kvadratura:</label>
+      <input type="number" id="minArea" placeholder="Min. kvadratura">
+      <label for="maxArea">Maksimalna kvadratura:</label>
+      <input type="number" id="maxArea" placeholder="Max. kvadratura">
+      <button onclick="filtrirajNekretnine()" id="search"><strong>Pretraži</strong></button>
+  </div>
+
+  
+<br>
+<br>
+<br>
+<br>
+<h2>Stanovi</h2>
+<div id ="Stan">
+</div>
+
+<h2> Kuće</h2>
+<div id ="Kuca"> 
+ </div>
+ <h2> Poslovni prostori </h2> 
+ 
+ <div id ="Pp">
+</div>
+
+
+<script  src='../scripts/SpisakNekretnina.js'></script>
+<script   src='../scripts/nekretnine.js'></script>
+
+
+
+
+</body>
+</html>

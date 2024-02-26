@@ -1,0 +1,121 @@
+body {
+    
+    font-size: 16px;
+    margin: 0;
+   
+}
+
+
+
+
+.korisnik {
+    font-weight: bold;
+}
+
+.useri{
+    margin-top: 10px;
+}
+
+#meni{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding: 0;
+   
+}
+
+
+#nekretnina-div{
+    margin-right: 70px;
+    margin-left: 50px;
+}
+
+#upiti-container {
+    margin-left: 20px;
+  }
+  
+  #upiti-container {
+    margin-right: 70px;
+    margin-left: 50px;
+  }
+  
+  #upiti-lista  {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  #Upit{
+    margin-right: 70px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+
+  
+ 
+  
+  #dodaj_upit {
+    max-width: 600px;
+    margin-right: 70px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  #upit-form-container {
+    margin-top: 20px;
+  }
+  
+  #tekst_upita {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #postavi-upit-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #postavi-upit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+  .banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50; /* Zelena boja (prilagodite po potrebi) */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  
+  
+
+
+
+

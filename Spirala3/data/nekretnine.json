@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "tip_nekretnine": "Stan",
+    "naziv": "Useljiv stan",
+    "kvadratura": 58,
+    "cijena": 350000,
+    "tip_grijanja": "plin",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2019,
+    "datum_objave": "01.10.2023.",
+    "opis": "Sociis natoque penatibus.",
+    "upiti": [
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Nullam eu pede mollis pretium."
+      },
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Phasellus viverra nulla."
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Pitanje"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tip_nekretnine": "Stan",
+    "naziv": "Useljiv stan",
+    "kvadratura": 68,
+    "cijena": 307000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tip_nekretnine": "Stan",
+    "naziv": "Useljiv stan",
+    "kvadratura": 66,
+    "cijena": 235000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tip_nekretnine": "Stan",
+    "naziv": "Useljiv stan",
+    "kvadratura": 79,
+    "cijena": 350000,
+    "tip_grijanja": "plin",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2019,
+    "datum_objave": "01.10.2023.",
+    "opis": "Sociis natoque penatibus.",
+    "upiti": [
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Nullam eu pede mollis pretium."
+      },
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Phasellus viverra nulla."
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Pitanje"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "tip_nekretnine": "Stan",
+    "naziv": "Useljiv stan",
+    "kvadratura": 70,
+    "cijena": 285000,
+    "tip_grijanja": "plin",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2019,
+    "datum_objave": "01.10.2023.",
+    "opis": "Sociis natoque penatibus.",
+    "upiti": [
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Nullam eu pede mollis pretium."
+      },
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Phasellus viverra nulla."
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Pitanje"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "tip_nekretnine": "Kuca",
+    "naziv": "Useljiva kuca",
+    "kvadratura": 155,
+    "cijena": 181500,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "tip_nekretnine": "Kuca",
+    "naziv": "Useljiva kuca",
+    "kvadratura": 201,
+    "cijena": 199000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "tip_nekretnine": "Kuca",
+    "naziv": "Useljiva kuca",
+    "kvadratura": 170,
+    "cijena": 320000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "tip_nekretnine": "Kuca",
+    "naziv": "Useljiva kuca",
+    "kvadratura": 210,
+    "cijena": 515000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "tip_nekretnine": "Kuca",
+    "naziv": "Useljiva kuca",
+    "kvadratura": 330,
+    "cijena": 179000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Poslovni prostor",
+    "kvadratura": 54,
+    "cijena": 250000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  }, 
+  {
+    "id": 12,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Poslovni prostor",
+    "kvadratura": 160,
+    "cijena": 500000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  }, 
+  {
+    "id": 13,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Poslovni prostor",
+    "kvadratura": 80,
+    "cijena": 235800,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Poslovni prostor",
+    "kvadratura": 65,
+    "cijena": 240000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Poslovni prostor",
+    "kvadratura": 24,
+    "cijena": 69000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      }
+    ]
+  }
+
+
+
+]

@@ -1,0 +1,106 @@
+body{
+    background-color: #fdf1d3;
+}
+
+.nekretnine {
+    margin-bottom: 30px;
+}
+
+#stan{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+  grid-gap: 20px;
+}
+
+#kuca{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+  grid-gap: 20px;
+}
+
+#pp{
+    display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+  grid-gap: 20px;
+}
+
+
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+
+.nekretnina {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.nekretnina img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nekretnina h3,
+.nekretnina p {
+    margin: 0;
+}
+
+.stan {
+    background-color: white;
+}
+
+.kuca {
+    background-color: powderblue;
+}
+
+.pp {
+    background-color: green;
+}
+
+.naziv{
+    text-align: left;
+}
+.kvadratura{
+    text-align: left;
+}
+
+.cijena{
+    text-align: right;
+}
+
+.dugme{
+    align-items: center;
+    background-color: #482dbf; /* Postavite boju pozadine dugmeta */
+    color: white; /* Postavite boju teksta */
+    padding: 10px 20px; /* postavljamo rastojanje izmedju teskta i ivica  */
+    border: none; /* Uklonite okvir oko dugmeta */
+    border-radius: 10px; /* Zaoblite ivice dugmeta */
+    cursor: pointer; /* Postavite kursor na pokazivač kad se pređe preko dugmeta */
+    font-size: 14px; /* Postavite veličinu fonta */
+}
+
+
+#meni{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    left: 0;
+    
+
+}
+
+
+
+

@@ -1,0 +1,6 @@
+Dodala sam div element s klasom c koji sadrži sve labele i input field-ove, te sam u css-u iskoristila 
+@media screen and (min-width: 500px) pomocu koje ce mi se izgled samog profila mijenjati u zavisnosti od sirine (raspored elemenata se mijenja)
+To sve unutar tog bloka ce se primjenjivati samo na ekrane cija je sirina 500 piksela ili veca. 
+
+Pored toga sam iskoristila  white-space: nowrap;
+da bi sprijecila prelazak u novi red kada smanjim velicinu ekrana. 
